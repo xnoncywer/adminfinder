@@ -1,5 +1,21 @@
 import requests
 
+def des():
+    print('\033[32m' + ''' 
+                                               ___ - ___                           
+   ||          ||     ||\\          ||        __        __         ||\\          ||
+    ||        ||      || \\         ||       __          __        || \\         ||
+     ||      ||       ||  \\        ||     ___            __       ||  \\        ||
+      ||    ||        ||   \\       ||    __               __      ||   \\       ||
+       ||  ||         ||    \\      ||    __                __     ||    \\      ||
+         ||           ||     \\     ||    __                 __    ||     \\     ||
+       ||  ||         ||      \\    ||     __               __     ||      \\    ||
+      ||    ||        ||       \\   ||      __            __       ||       \\   ||
+     ||      ||       ||        \\  ||       __          __        ||        \\  ||
+    ||        ||      ||         \\ ||        __       __          ||         \\ ||
+   ||          ||     ||          \\||          -- ___--           ||          \\||   A D M I N F I N D E R 
+          '\033[0m' ''')
+
 page_list = ['admin/', 'administrator/', 'wp-login.php', 'login.php', 'administration/', 'admin1/', 'admin2/', 'admin3/', 'admin4/',
 'admin5/', 'moderator/', 'webadmin/', 'adminarea/', 'bb-admin/', 'adminLogin/', 'admin_area/', 'panel-administracion/',
 'instadmin/',
@@ -440,6 +456,8 @@ page_list = ['admin/', 'administrator/', 'wp-login.php', 'login.php', 'administr
 'admin/admin.cgi'
              
 ]
+
+des()
 
 found = []
 
